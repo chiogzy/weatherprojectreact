@@ -9,6 +9,7 @@ function App() {
         <a
           href="https://github.com/chiogzy/weatherprojectreact"
           target="_blank"
+          rel="noreferrer"
         >
           Chioma Oguogho
         </a>
