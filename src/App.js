@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <h1>WeatherApp</h1>
         <Weather />
-        <p>
+        <footer>
           This code was created by{" "}
           <a href="https://github.com/chiogzy" target="_blank" rel="noreferrer">
             Chioma Oguogho
@@ -21,7 +21,7 @@ function App() {
           >
             open-sourced on GitHub
           </a>
-        </p>
+        </footer>
       </div>
     </div>
   );
