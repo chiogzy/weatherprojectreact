@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <div className="container">
         <h1>WeatherApp</h1>
-        <Weather />
+        <Weather defaultCity="Lagos" />
         <footer>
           This code was created by{" "}
           <a href="https://github.com/chiogzy" target="_blank" rel="noreferrer">
