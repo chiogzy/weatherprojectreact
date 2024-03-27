@@ -6,21 +6,34 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>WeatherApp</h1>
         <Weather defaultCity="Lagos" />
         <footer>
-          This code was created by{" "}
-          <a href="https://github.com/chiogzy" target="_blank" rel="noreferrer">
-            Chioma Oguogho
-          </a>
-          and it is{" "}
-          <a
-            href="https://github.com/chiogzy/weatherprojectreact"
-            target="_blank"
-            rel="noreferrer"
-          >
-            open-sourced on GitHub
-          </a>
+          <p>
+            This project was coded by{" "}
+            <a
+              href="https://github.com/chiogzy"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Chioma Oguogho{" "}
+            </a>
+            and is on{" "}
+            <a
+              href="https://github.com/chiogzy/previousweather-react"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub{" "}
+            </a>
+            and{" "}
+            <a
+              href="https://musical-llama-76f8d4.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              hosted on Netlify
+            </a>
+          </p>
         </footer>
       </div>
     </div>
