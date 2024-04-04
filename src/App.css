@@ -4,6 +4,9 @@
 }
 
 .App footer {
+  text-align: center;
   font-size: 11px;
-  margin: 10px 0;
+  margin: 15px 0;
+  background: #e9e5f1;
+  padding: 15px 0 5px;
 }

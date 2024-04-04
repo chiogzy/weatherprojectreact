@@ -3,7 +3,9 @@
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
+  background: #927fbf;
   color: rgb(135, 135, 135);
+  box-shadow: 5px 5px 5px #878787;
 }
 
 .weather form {
@@ -11,10 +13,10 @@
 }
 
 .weather h1 {
-  color: #878787;
-  font-size: 24px;
-  font-weight: 100;
-  margin: 20px 0 0 0;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bolder;
+  margin: 20px 0 10px 0;
   line-height: 29px;
 }
 
@@ -36,6 +38,16 @@
   display: inline-block;
 }
 
+.weather .WeatherInfo {
+  background: #e9e5f1;
+  margin-bottom: 20px;
+  padding: 5px 15px 10px;
+}
+
+.weather .weatherAppDetails strong {
+  color: red;
+}
+
 .weather .temperature {
   font-weight: bold;
   color: rgb(33, 33, 33);
@@ -54,4 +66,20 @@
   line-height: 1;
   top: -34px;
   margin-left: 5px;
+}
+.weather .WeatherForecast {
+  text-align: center;
+}
+
+.weather .WeatherForecast-temperatures {
+  color: white;
+}
+
+.weather .WeatherForecast-temperature-min {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+.weather .WeatherForecast-day {
+  color: white;
 }
